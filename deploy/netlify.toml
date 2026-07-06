@@ -1,0 +1,8 @@
+# Netlify config — serves the static site as-is.
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
